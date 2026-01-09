@@ -1,7 +1,7 @@
 # Flappy Bird-Styled Game  
 **by Anthony Joseph**
 
-![Flappy Bird](Flappy_Bird_Game/images/favicon.jpeg) ![Play Button](Flappy_Bird_Game/images/play-button.jpg)
+![Flappy Bird](docs/images/favicon.jpeg) ![Play Button](docs/images/play-button.jpg)
 
 
 ---
@@ -33,7 +33,7 @@ The game features:
   - Press the Down Arrow key to change between Day and Night modes manually.  
   - Night mode is used for people who want a constant colour with no changing background and pipes.  
 
-![Night Mode](Flappy_Bird_Game/images/NightMode.png)
+![Night Mode](docs/images/NightMode.png)
 
 
 - **Game Over**:  
