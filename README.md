@@ -1,7 +1,7 @@
 # Flappy Bird-Styled Game  
 **by Anthony Joseph**
 
-![Flappy Bird](docs/images/favicon.ico) [![Play Button](docs/images/play-button.jpg)](https://spillarcher.github.io/Flappy-Birdy-Game/)
+![Flappy Bird](docs/images/favicon.jpeg) [![Play Button](docs/images/play-button.jpg)](https://spillarcher.github.io/Flappy-Birdy-Game/)
 
 ---
 
