@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="game.js" defer></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="start-screen.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Flappy Bird</title>
+
+</head>
+
+<body>
+    
+    <!-- Start Screen -->
+    <div id="start-screen">
+        <img src="images/favicon.jpeg" alt="Game Logo" id="game-logo">
+        <h1>Welcome to Flappy Bird!</h1>
+        <h3>Made by Anthony Joseph</h3>
+        <button id="start-button">Start Game</button>
+        <audio id="bg-music" loop>
+            <source src="music/background sound.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="flap-sound" src="music/flap sound.mp3" preload="auto"></audio>
+
+    </div>
+    <audio id="collision-sound" src="music/end sound.mp3" preload="auto"></audio>
+
+
+    <div id="instruction">Use Spacebar to Jump</div>
+
+    <!-- Countdown -->
+    <div id="countdown">
+        <div id="count-number">3</div>
+    </div>
+
+    <!-- Score Display -->
+    <div id="score-display">Score: 0</div>
+
+     
+
+    <!-- Game Area -->
+    <div id="game-area">
+        <canvas id="myCanvas" width="600" height="600"></canvas>
+    </div>
+
+    <!-- Game Over Screen -->
+<div id="game-over-screen" style="display: none;">
+    <h1>Game Over!</h1>
+    <h3 id="final-score">Your Score: 0</h3>
+    <button id="restart-button">Restart Game</button>
+</div>
+
+</body>
+</html>

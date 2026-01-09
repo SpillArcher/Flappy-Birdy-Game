@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+    /* Background image from your images folder */
+    background-image: url('images/skybg.jpg'); /* Replace with your actual image filename */
+    background-size: cover;       /* Scale the image to cover the whole screen */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+
+#game-over-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+#restart-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 8px;
+}
+
+#restart-button:hover {
+    background-color: #f8e808;
+}
+
+#high-score-display {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.flash {
+    animation: flash 0.5s ease-in-out 3;
+}
+
+@keyframes flash {
+    0%, 100% { color: white; }
+    50% { color: gold; }
+}
+#instruction {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: rgb(247, 242, 95);
+    background-color: #948bf7;
+    border: 10px solid rgb(126, 239, 217);
+    border-radius: 80px;
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    display: block; /* Make sure it's visible initially */
+}
