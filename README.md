@@ -1,7 +1,7 @@
-# Flappy Bird  
-**by Anthony Joseph: 240687051**
+# Flappy Bird-Styled Game  
+**by Anthony Joseph**
 
-![Flappy Bird](images/favicon.jpeg)
+![Flappy Bird](Flappy Bird Game/images/favicon.jpeg)
 
 
 ---
