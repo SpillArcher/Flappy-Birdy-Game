@@ -1,7 +1,7 @@
 # Flappy Bird-Styled Game  
 **by Anthony Joseph**
 
-![Flappy Bird](Flappy_Bird_Game/images/favicon.jpeg)
+![Flappy Bird](Flappy_Bird_Game/images/favicon.jpeg) ![Play Button](Flappy_Bird_Game/images/play-button.jpg)
 
 
 ---
